@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: #C0C0C0;">
+<head>
+    <title>Registration Form</title>
+</head>
+<body style="color:#000000;">
+  <h1 style="text-align:center;">Enter your information </h1>
+  <form style="text-align:center;">
+    <label for="username">User Name:</label>
+    <input type="text" name="username" id="username" required placeholder="User Name"
+    style="border-radius:4px"><br><br>
+
+    <label for="bithdate">Birth Date:</label>
+    <input type="date" name="birthdate" id="birthdate" style="border-radius:4px"><br><br>
+
+    <label for="gender">Gender</label>
+    <input type="radio" name="gender" id="male">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female">
+    <label for="female">Female</label><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required placeholder="Enter a valid Email"
+    style="border-radius:4px"><br><br>
+
+    <label for="mobile">Mobile:</label>
+    <input type="text" name="mobile" id="mobile" style="border-radius:4px"><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password" required placeholder="Enter a strong password"
+    style="border-radius:4px"><br><br>
+
+    <label for="repassword">Re-enter Password</label>
+    <input type="password" name="repassword" id="repassword" required placeholder="Enter the same password"
+    style="border-radius:4px"><br><br>
+
+    <label for="updates">Send Updates Via:</label>
+    <input type="checkbox" name="updates" id="sms">
+    <label for="sms">SMS</label>
+    <input type="checkbox" name="updates" id="email">
+    <label for="email">E-mail</label><br><br>
+
+    <input type="submit" value="Register" style="border-radius:6px">
+    <input type="button" value="Back" onclick="history.back()" style="border-radius:6px">
+  </form>
+</body>
+</html>

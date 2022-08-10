@@ -1,0 +1,18 @@
+{
+    "Schedule" :[
+        {"Fligh No" : 1  , "City" : "New York" , "Time" : "14:00", "Return time" : "6:00"},
+        {"Fligh No" : 2  , "City" : "Spain" , "Time" : "22:00" , "Return time" : "6:00"},
+        {"Fligh No" : 4 , "City" : "Thailand" , "Time" : "16:00", "Return time" : "6:00"},
+        {"Fligh No" : 5 , "City" : "Bali" , "Time" : "00:00" , "Return time" : "6:00"},
+        {"Fligh No" : 0  , "City" : "Barcelona" , "Time" : "01:00", "Return time" : "6:00"}
+    ],
+    "Price" :[
+
+        {"Fligh No" : 1  , "City" : "New York" , "First Class" : "2100$", "Economy": "1700$" },
+        {"Fligh No" : 2  , "City" : "Spain" , "First Class" : "2900$", "Economy": "1900$" },
+        {"Fligh No" : 4 , "City" : "Thailand" , "First Class" : "3000$", "Economy": "2000$" },
+        {"Fligh No" : 5 , "City" : "Bali" , "First Class" : "4000$", "Economy": "2500$" },
+        {"Fligh No" : 0  , "City" : "Barcelona" , "First Class" : "2300$", "Economy": "1600$" }
+
+    ]
+}     
